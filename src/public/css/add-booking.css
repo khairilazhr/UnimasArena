@@ -1,0 +1,76 @@
+#bookingForm {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  #bookingForm label {
+    display: block;
+    font-size: 18px;
+  }
+  
+  #bookingForm .input-field,
+  #bookingForm select
+  {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #bookingForm .contact_number input,
+  #bookingForm .name input,
+  #bookingForm .email input,
+  #bookingForm .matric_number input {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #bookingForm .court-selection,
+  #bookingForm .name,
+  #bookingForm .email,
+  #bookingForm .matric_number,
+  #bookingForm .contact_number {
+  
+  }
+  
+  #bookingForm input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #bookingForm input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+
+h1{
+  font-size: 20px;
+  color: Black;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.inline-field {
+    display: flex;
+    align-items: center;
+}
+
+.inline-field label {
+    margin-right: 10px;
+}
+
+.inline-field span {
+    font-size: 18px;
+    font-family: 'Poppins';
+}
