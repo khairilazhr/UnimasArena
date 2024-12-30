@@ -4,15 +4,15 @@ body {
   
   .sidenav {
     height: 100%;
-    width: 15%;
+    width: 15%; /* Adjust as needed */
     position: fixed;
-    z-index: 1;
+    z-index: 1000; /* Higher z-index to keep it on top */
     top: 0;
     left: 0;
     background-color: rgb(29, 0, 192);
     overflow-x: hidden;
     padding-top: 20px;
-  }
+}
   
   .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -43,10 +43,13 @@ body {
   }
   
   .main {
-    margin-left: 15%; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-  }
+    margin-left: 15%; /* Matches the width of the sidenav */
+    font-size: 18px; /* Adjusted for better readability */
+    padding: 20px; /* Adds spacing inside the container */
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+    width: 85%; /* Takes the remaining space beside the sidenav */
+}
+
   
   .logo {
     width: 90%;
